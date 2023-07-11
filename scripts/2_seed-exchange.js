@@ -21,17 +21,17 @@ async function main() {
 
   // Fetch deployed tokens
   const DApp = await ethers.getContractAt('Token', config[chainId].DApp.address)
-  console.log(`Dapp Token fetched: ${DApp.address}\n`)
+  console.log(`\n \nDapp Token fetched: ${DApp.address}`)
 
   const mETH = await ethers.getContractAt('Token', config[chainId].mETH.address)
-  console.log(`mETH Token fetched: ${mETH.address}\n`)
+  console.log(`mETH Token fetched: ${mETH.address}`)
 
   const mDAI = await ethers.getContractAt('Token', config[chainId].mDAI.address)
-  console.log(`mDAI Token fetched: ${mDAI.address}\n`)
+  console.log(`mDAI Token fetched: ${mDAI.address}`)
 
   // Fetch the deployed exchange
   const exchange = await ethers.getContractAt('Exchange', config[chainId].exchange.address)
-  console.log(`Exchange fetched: ${exchange.address}\n`)
+  console.log(`Exchange fetched:   ${exchange.address}\n`)
 
   // Give tokens to account[1]
   const sender = accounts[0]

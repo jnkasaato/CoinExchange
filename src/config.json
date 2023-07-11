@@ -14,19 +14,36 @@
     },
     "explorerURL": "#"
   },
+
   "5": {
     "exchange": {
-      "address": "0x22aB31d4EEb63B09e4C4A6BeE1a241D50c07e9E6"
+      "address": "0xd844b21C6E356e04e0dCE2F5eFbBe43dE1D79703"
     },
     "DApp": {
-      "address": "0xDF0A218b05f40Dd46366bBE6CE4eEEdD53758b61"
+      "address": "0x28d935E1d050f1300feb868a849bbE838d160eA4"
     },
     "mETH": {
-      "address": "0x163F3d581e52F843279290390fdd451013219719"
+      "address": "0xBb3081155305682CC922d7420d81796178E2C47f"
     },
     "mDAI": {
-      "address": "0xEC46943814F46F774Eb4ea563A068905B66E8a3A"
+      "address": "0x285A61E94A309723895E1612591aCE5B7D689802"
     },
     "explorerURL": "https://goerli.etherscan.io/"
+  },
+
+  "80001": {
+    "exchange": {
+      "address": "0x1EcA368725948aced07Be58D1d84f2f58D485477"
+    },
+    "DApp": {
+      "address": "0xBb3081155305682CC922d7420d81796178E2C47f"
+    },
+    "mETH": {
+      "address": "0x285A61E94A309723895E1612591aCE5B7D689802"
+    },
+    "mDAI": {
+      "address": "0xd844b21C6E356e04e0dCE2F5eFbBe43dE1D79703"
+    },
+    "explorerURL": "https://mumbai.polygonscan.com/"
   }
 }
